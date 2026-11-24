@@ -1,0 +1,15 @@
+.env
+.venv/
+.DS_Store
+__pycache__/
+*.pyc
+*.py[cod]
+data/*.db
+data/raw_data.json
+data/raw_data.csv
+data/kafka_messages.jsonl
+data/validated_data.csv
+data/invalid_records.csv
+data/cleaned_data.csv
+data/pipeline_metrics.json
+figures/*.png

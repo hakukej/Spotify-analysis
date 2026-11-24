@@ -1,0 +1,8 @@
+{
+  "input_valid_records": 250,
+  "duplicates_removed": 0,
+  "missing_values_before_handling": 0,
+  "cleaned_records": 250,
+  "duration_mean_ms": 186933.448,
+  "duration_std_ms": 40281.27281066595
+}

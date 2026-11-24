@@ -1,0 +1,14 @@
+{
+  "records": 250,
+  "mean_duration_minutes": 3.1155574666666666,
+  "median_duration_minutes": 2.9970833333333333,
+  "most_common_album_type": "album",
+  "explicit_share": 0.372,
+  "earliest_release_year": 2024,
+  "latest_release_year": 2024,
+  "figure_interpretation": {
+    "01_duration_distribution": "Shows the shape, spread, and concentration of track durations; compare the mean and median to assess skew.",
+    "02_tracks_by_album_type": "Compares the number of collected tracks classified as albums, singles, and compilations.",
+    "03_tracks_by_release_year": "Shows how the collected search sample is distributed across release years; it is a sample, not a census of Spotify releases."
+  }
+}

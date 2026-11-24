@@ -1,0 +1,88 @@
+{
+  "valid_records": 250,
+  "invalid_records": 0,
+  "synthetic_invalid_tests": 3,
+  "synthetic_errors_detected": 3,
+  "validation_failure_cases": [
+    {
+      "column": "track_id",
+      "failure_case": "KeyError(\"<class 'pandas.core.series.Series'>\")",
+      "index": null,
+      "schema_context": "Column",
+      "check": "str_length(10, None)",
+      "check_number": 0
+    },
+    {
+      "column": "track_name",
+      "failure_case": "KeyError(\"<class 'pandas.core.series.Series'>\")",
+      "index": null,
+      "schema_context": "Column",
+      "check": "str_length(1, None)",
+      "check_number": 0
+    },
+    {
+      "column": "artist_names",
+      "failure_case": "KeyError(\"<class 'pandas.core.series.Series'>\")",
+      "index": null,
+      "schema_context": "Column",
+      "check": "str_length(1, None)",
+      "check_number": 0
+    },
+    {
+      "column": "album_name",
+      "failure_case": "KeyError(\"<class 'pandas.core.series.Series'>\")",
+      "index": null,
+      "schema_context": "Column",
+      "check": "str_length(1, None)",
+      "check_number": 0
+    },
+    {
+      "column": "album_type",
+      "failure_case": "KeyError(\"<class 'pandas.core.series.Series'>\")",
+      "index": null,
+      "schema_context": "Column",
+      "check": "isin(['album', 'single', 'compilation'])",
+      "check_number": 0
+    },
+    {
+      "column": "duration_ms",
+      "failure_case": "KeyError(\"<class 'pandas.core.series.Series'>\")",
+      "index": null,
+      "schema_context": "Column",
+      "check": "in_range(1, 3600000)",
+      "check_number": 0
+    },
+    {
+      "column": "track_number",
+      "failure_case": "KeyError(\"<class 'pandas.core.series.Series'>\")",
+      "index": null,
+      "schema_context": "Column",
+      "check": "greater_than_or_equal_to(1)",
+      "check_number": 0
+    },
+    {
+      "column": "disc_number",
+      "failure_case": "KeyError(\"<class 'pandas.core.series.Series'>\")",
+      "index": null,
+      "schema_context": "Column",
+      "check": "greater_than_or_equal_to(1)",
+      "check_number": 0
+    },
+    {
+      "column": "album_total_tracks",
+      "failure_case": "KeyError(\"<class 'pandas.core.series.Series'>\")",
+      "index": null,
+      "schema_context": "Column",
+      "check": "greater_than_or_equal_to(1)",
+      "check_number": 0
+    },
+    {
+      "column": "market",
+      "failure_case": "KeyError(\"<class 'pandas.core.series.Series'>\")",
+      "index": null,
+      "schema_context": "Column",
+      "check": "str_length(2, 2)",
+      "check_number": 0
+    }
+  ]
+}

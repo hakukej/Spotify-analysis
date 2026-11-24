@@ -1,0 +1,38 @@
+{
+  "stored_after_first_load": 250,
+  "stored_after_second_load": 250,
+  "duplicate_primary_keys": 0,
+  "idempotency_passed": true,
+  "sample_rows": [
+    [
+      "08YpPMWRDp6FwHWivbwOkw",
+      "DIOS POR DELANTE",
+      "single",
+      214473
+    ],
+    [
+      "6tNQ70jh4OwmPGpYy6R2o9",
+      "Beautiful Things",
+      "single",
+      180304
+    ],
+    [
+      "2BMlaVJaHDGd3ODSyrB2VK",
+      "Brillarosa",
+      "single",
+      169587
+    ],
+    [
+      "5D0N7a6vursEiO2jAC7dAF",
+      "OYE",
+      "single",
+      161164
+    ],
+    [
+      "3FqUPvubYeRCMsdJ02QyZR",
+      "T\u00da NAME",
+      "single",
+      152078
+    ]
+  ]
+}
